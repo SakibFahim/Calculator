@@ -44,5 +44,6 @@ public class Java_Class_2 {
 
     public void setR(int r) {
         this.r = r;
+
     }
 }
