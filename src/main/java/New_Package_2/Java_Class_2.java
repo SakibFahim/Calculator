@@ -3,18 +3,15 @@ package New_Package_2;
 public class Java_Class_2 {
     string abc;
     int d;
-    int a;
-    int b;
-    int c;
-    string def;
+    string p;
+    int r;
 
-    public Java_Class_2(string abc, int d, int a, int b, int c, string def) {
+
+    public Java_Class_2(string abc, int d, string p, int r) {
         this.abc = abc;
         this.d = d;
-        this.a = a;
-        this.b = b;
-        this.c = c;
-        this.def = def;
+        this.p = p;
+        this.r = r;
     }
 
     public string getAbc() {
@@ -33,35 +30,20 @@ public class Java_Class_2 {
         this.d = d;
     }
 
-    public int getA() {
-        return a;
+    public string getP() {
+        return p;
     }
 
-    public void setA(int a) {
-        this.a = a;
+    public void setP(string p) {
+        this.p = p;
     }
 
-    public int getB() {
-        return b;
+    public int getR() {
+        return r;
     }
 
-    public void setB(int b) {
-        this.b = b;
-    }
+    public void setR(int r) {
+        this.r = r;
 
-    public int getC() {
-        return c;
-    }
-
-    public void setC(int c) {
-        this.c = c;
-    }
-
-    public string getDef() {
-        return def;
-    }
-
-    public void setDef(string def) {
-        this.def = def;
     }
 }
