@@ -5,3 +5,4 @@ out/
 
 # Maven
 target/
+ignore.txt
